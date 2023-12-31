@@ -85,6 +85,9 @@ body {
 .tecnologys h3 {
   display: none;
 }
+.tecnologys i {
+  display: none;
+}
 .tecnologys .container-logo img {
   max-width: 150px;
 }
@@ -99,8 +102,12 @@ body {
   }
   .tecnologys h3 {
     margin-top: 1rem;
+    margin-bottom: 0;
     display: flex;
     font-family: "Anton", sans-serif;
     color: #29aa6a;
+  }
+  .tecnologys i {
+    display: block;
   }
 }/*# sourceMappingURL=styles.css.map */

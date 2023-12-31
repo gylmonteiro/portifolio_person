@@ -90,6 +90,9 @@ body{
     h3 {
         display:none;
     }
+    i{
+        display: none;
+    }
 
     .container-logo img{
             max-width: 150px;
@@ -107,9 +110,13 @@ body{
         max-height: 100vh;
         h3{
             margin-top: 1rem;
+            margin-bottom: 0;
             display: flex;
             font-family: 'Anton', sans-serif;
             color: #29aa6a;
+        }
+        i{
+            display: block;
         }
     }
 }
