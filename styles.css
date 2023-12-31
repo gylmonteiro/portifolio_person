@@ -40,6 +40,7 @@ body {
   font-family: "Anton", sans-serif;
   font-size: 3rem;
   text-align: center;
+  color: #29aa6a;
 }
 .container-header h2 {
   font-family: "Montserrat", sans-serif;
@@ -81,17 +82,25 @@ body {
   background-color: #fff;
   justify-content: space-around;
 }
+.tecnologys h3 {
+  display: none;
+}
 .tecnologys .container-logo img {
   max-width: 150px;
 }
 
 @media screen and (max-width: 786px) {
   .container-header {
-    margin-top: 8rem;
+    margin-top: 9rem;
   }
   .tecnologys {
-    display: flex;
     flex-direction: column;
     max-height: 100vh;
+  }
+  .tecnologys h3 {
+    margin-top: 1rem;
+    display: flex;
+    font-family: "Anton", sans-serif;
+    color: #29aa6a;
   }
 }/*# sourceMappingURL=styles.css.map */
